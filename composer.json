@@ -1,0 +1,23 @@
+{
+    "name": "TieSone/hammondlib",
+    "description": "How many bacon do you have in the fridge",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hammond Bacon"
+        }
+    ],
+    "require": {
+        "php": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {"Hammondlib\\": "src/hammondlib"}
+    },
+    "autoload-dev": {
+        "psr-4": {"Hammondlib\\": "tests/hammondlib"}
+    }
+}
